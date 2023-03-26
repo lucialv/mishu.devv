@@ -1,4 +1,4 @@
-export default defineEventHandler((event) => {
-    appendHeader(event, "Content-Type", "text/plain");
-    return `User-agent: *\nSitemap: https://${process.env.domain}/sitemap.xml`;
-});
+# https://www.robotstxt.org/robotstxt.html
+Sitemap: https://blog.skyra.pw/sitemap.xml
+User-agent: *
+Disallow:
